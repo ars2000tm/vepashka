@@ -1,0 +1,5 @@
+git remote add upstream https://github.com/Snawoot/shadowsocks-platform.sh.git
+git fetch upstream
+git reset --hard upstream/master
+git checkout -b main
+git push -u origin --force-with-lease main
